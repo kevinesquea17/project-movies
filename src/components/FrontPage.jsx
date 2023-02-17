@@ -6,7 +6,8 @@ import Header from './Header'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Navigation, Autoplay } from 'swiper';
+import "swiper/css/effect-fade";
+import { Navigation, Autoplay, EffectFade } from 'swiper';
 import { frontPages } from '../datafake';
 
 const FrontPage = () => {
@@ -14,15 +15,16 @@ const FrontPage = () => {
     <section className='h-screen w-full relative flex items-center'>
         {/* <Header /> */}
         <Swiper
-            spaceBetween={10}
             slidesPerView={1}
             loop={true}
+            effect={"fade"}
             autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
+                waitForTransition: true
             }}
             className='w-full h-full'
-            modules={[Autoplay]}
+            modules={[Autoplay, EffectFade]}
         >
             {frontPages.map(front => (
                 <SwiperSlide key={front.id} className='h-full w-full flex items-center'>
