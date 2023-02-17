@@ -7,13 +7,13 @@ const dates = [
     'Today', 'This week', 'Last 30 days'
 ]
 
-const SectionGenre = ({background, title, rowReverse}) => {
+const SectionGenre = ({title, rowReverse}) => {
 
     let back = `bg-[${background}]`
     console.log(back)
 
     return (
-        <section className={`${back} py-10`}>
+        <section className={`${rowReverse ? 'bg-[#0F131D]' : 'bg-[#131722]'} py-10`}>
             <div className='sm:w-[80%] w-[90%] mx-auto'>
                 <div className={`${rowReverse ? 'sm:left-[30%]' : ''} w-[70%] relative flex items-center space-x-4`}>
                     {dates.map((date, index) => (

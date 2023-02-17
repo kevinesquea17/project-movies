@@ -6,8 +6,8 @@ const HomePage = () => {
   return (
     <>
         <FrontPage />
-        <SectionGenre background='#131722' title='Action & Drama Movies'/>
-        <SectionGenre background='#111111' title='Funniest Comedy Movies' rowReverse={true} />
+        <SectionGenre title='Action & Drama Movies'/>
+        <SectionGenre title='Funniest Comedy Movies' rowReverse={true} />
     </>
   )
 }
