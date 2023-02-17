@@ -9,9 +9,6 @@ const dates = [
 
 const SectionGenre = ({title, rowReverse}) => {
 
-    let back = `bg-[${background}]`
-    console.log(back)
-
     return (
         <section className={`${rowReverse ? 'bg-[#0F131D]' : 'bg-[#131722]'} py-10`}>
             <div className='sm:w-[80%] w-[90%] mx-auto'>
