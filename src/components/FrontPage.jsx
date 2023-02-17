@@ -8,7 +8,7 @@ import Header from './Header'
 const FrontPage = () => {
   return (
     <section className='h-screen w-full relative flex items-center'>
-        <Header />
+        {/* <Header /> */}
         <img src={Front} alt="front-page" className='absolute top-0 left-0 w-full h-full object-cover' />
         <div className='absolute top-0 left-0 w-full h-full bg-[#111111] bg-opacity-50'></div>
         <div className='sm:w-[80%] w-[90%] mx-auto relative flex justify-between'>

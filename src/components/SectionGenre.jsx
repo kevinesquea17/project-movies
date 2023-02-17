@@ -7,7 +7,7 @@ const dates = [
     'Today', 'This week', 'Last 30 days'
 ]
 
-const SectionGenre = ({title, rowReverse}) => {
+const SectionGenre = ({title, rowReverse, movies}) => {
 
     return (
         <section className={`${rowReverse ? 'bg-[#0F131D]' : 'bg-[#131722]'} py-10`}>
@@ -23,7 +23,7 @@ const SectionGenre = ({title, rowReverse}) => {
                 <SwiperProvider>
                     <div className={`${rowReverse ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex justify-between mt-8 gap-6 flex-col-reverse`}>
                         <div className='sm:w-[70%] w-full'>
-                            <ListMovies />
+                            <ListMovies movies={movies}/>
                         </div>
                         <div className='sm:w-[30%] w-full flex flex-col'>
                             <TitleGenre title={title}/>
