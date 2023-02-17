@@ -14,6 +14,9 @@ import Movie13 from './assets/movie13.jpg'
 import Movie14 from './assets/movie14.jpg'
 import Movie15 from './assets/movie15.jpg'
 
+import Front1 from './assets/front1.jpg'
+import Front2 from './assets/front2.jpg'
+
 const movies = [
     {id: 1, image: Movie1, name: 'The Cloud Movie', year: 2022, featured: false, category: 'Action'},
     {id: 2, image: Movie2, name: 'Dirt', year: 2018, featured: false, category: 'Action'},
@@ -31,6 +34,11 @@ const movies = [
     {id: 14, image: Movie14, name: 'The Accountant', year: 2022, featured: false, category: 'Comedy'},
     {id: 15, image: Movie15, name: 'Renegades', year: 2019, featured: false, category: 'Comedy'},
     
+]
+
+export const frontPages = [
+    {id: 1, image: Front1, name: 'Battle Mountain' , description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quis qui sint. Est sint voluptas earum officiis sit libero consequuntur.'},
+    {id: 2, image: Front2, name: 'The Masked' , description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quis qui sint. Est sint voluptas earum officiis sit libero consequuntur.'},
 ]
 
 export default movies;

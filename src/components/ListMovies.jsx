@@ -23,7 +23,7 @@ const ListMovies = ({movies}) => {
             className='relative'
         >
             {movies.map(movie => (
-                <SwiperSlide key={movie.id} className='flex flex-col w-[164px] relative'>
+                <SwiperSlide key={movie.id} className='flex flex-col w-[164px] relative h-auto'>
                     {/* {movie.featured && <p className='absolute top-[-10px] left-[30%] text-white rounded p-1 px-2 bg-primary text-xs font-light z-50'>Featured</p>} */}
                     <div className='w-full relative'>
                         <img src={movie.image} alt={movie.name} className='w-full h-[240px] object-cover'/>
