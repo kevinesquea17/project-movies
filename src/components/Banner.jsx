@@ -9,7 +9,7 @@ const Banner = () => {
         <img src={Front3} alt="front-3" className='absolute top-0 left-0 w-full h-full object-cover' />
         <div className='flex justify-between items-center gap-8 sm:w-[80%] w-[90%] mx-auto relative'>
             <div className='flex flex-col items-center sm:w-[50%] w-full'>
-                <h2 className='font-bold text-7xl text-white text-center max-w-[60%] leading-tight'>American Made</h2>
+                <h2 className='font-bold text-7xl text-white text-center sm:max-w-[60%] max-w-full leading-tight'>American Made</h2>
                 <div className='flex items-center space-x-6 divide-x font-light text-white text-base mt-4'>
                     <p className=''>2017</p>
                     <p className='pl-4'>Comedy</p>
