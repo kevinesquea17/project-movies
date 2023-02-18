@@ -17,6 +17,17 @@ import Movie15 from './assets/movie15.jpg'
 import Front1 from './assets/front1.jpg'
 import Front2 from './assets/front2.jpg'
 
+import Recomedation1 from './assets/recomendation1.jpg'
+import Recomedation2 from './assets/recomendation2.jpg'
+import Recomedation3 from './assets/recomendation3.jpg'
+import Recomedation4 from './assets/recomendation4.jpg'
+import Recomedation5 from './assets/recomendation5.jpg'
+import Recomedation6 from './assets/recomendation6.jpg'
+import Recomedation7 from './assets/recomendation7.jpg'
+import Recomedation8 from './assets/recomendation8.jpg'
+
+
+
 const movies = [
     {id: 1, image: Movie1, name: 'The Cloud Movie', year: 2022, featured: false, category: 'Action'},
     {id: 2, image: Movie2, name: 'Dirt', year: 2018, featured: false, category: 'Action'},
@@ -39,6 +50,17 @@ const movies = [
 export const frontPages = [
     {id: 1, image: Front1, name: 'Battle Mountain' , description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quis qui sint. Est sint voluptas earum officiis sit libero consequuntur.'},
     {id: 2, image: Front2, name: 'The Masked' , description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quis qui sint. Est sint voluptas earum officiis sit libero consequuntur.'},
+]
+
+export const recomendations = [
+    {id: 1, image: Recomedation1 },
+    {id: 2, image: Recomedation2 },
+    {id: 3, image: Recomedation3 },
+    {id: 4, image: Recomedation4 },
+    {id: 5, image: Recomedation5 },
+    {id: 6, image: Recomedation6 },
+    {id: 7, image: Recomedation7 },
+    {id: 8, image: Recomedation8 },
 ]
 
 export default movies;

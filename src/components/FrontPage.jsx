@@ -29,7 +29,7 @@ const FrontPage = () => {
             {frontPages.map(front => (
                 <SwiperSlide key={front.id} className='h-full w-full flex items-center'>
                     <img src={front.image} alt="front-page" className='absolute top-0 left-0 w-full h-full object-cover' />
-                    <div className='absolute top-0 left-0 w-full h-full bg-[#111111] bg-opacity-50'></div>
+                    <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-[#111111] bg-opacity-50'></div>
                     <div className='sm:w-[80%] w-[90%] mx-auto relative flex justify-between'>
                         <div className='flex flex-col sm:w-[50%] w-full'>
                             <h2 className='sm:text-6xl text-5xl font-bold text-white'>{front.name}</h2>
