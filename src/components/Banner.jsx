@@ -13,7 +13,7 @@ const Banner = () => {
                 <div className='flex items-center space-x-6 divide-x font-light text-white text-base mt-4'>
                     <p className=''>2017</p>
                     <p className='pl-4'>Comedy</p>
-                    <p className='pl-4'>11hr 55 mins</p>
+                    <p className='pl-4'>11hr 45 mins</p>
                 </div>
                 <div className='flex items-center space-x-6 mt-10'>
                     <Button title='Watch Now' isPrimary={true} />
